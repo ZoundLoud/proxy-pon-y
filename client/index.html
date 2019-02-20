@@ -9,13 +9,20 @@
   </head>
   <body>
   <div>Did the proxy server work??</div>
-  <div id='description'></div>
-  <div id='commentSection'></div>
-  <div id='player'></div>
+  <div>
+    <div id='player'></div>
+    <div id='app'></div>
+  </div>
+  <div id="bottom">
+    <div id='description'></div>
+    <div id='commentSection'></div>
+
+  </div>
   <script src="http://localhost:3210/bundle.js"></script>
   <script src="http://localhost:3001/bundle.js"></script>
   <script src="http://localhost:2222/bundle.js"></script>
-    <script>
+  <script src="http://localhost:3000/bundle.js"></script>
+    <!-- <script>
       ReactDOM.render(
         React.createElement(App),
         document.getElementById('description')
@@ -28,7 +35,7 @@
         React.createElement(App),
         document.getElementById('player')
       );
-    </script>
+    </script> -->
   </body>
 
 </html>

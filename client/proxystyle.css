@@ -1,0 +1,21 @@
+body {
+  display: block;
+}
+#description {
+display: block;
+}
+
+#commentSection {
+  height: 400;
+  width: 600;
+  margin-top: 5px;
+}
+
+#player {
+  display: block;
+}
+
+#bottom {
+  display: flex;
+  flex-direction: column;
+}
