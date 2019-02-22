@@ -3,20 +3,29 @@ body {
 }
 #description {
 display: block;
+padding-left: 50px;
 }
 
 #commentSection {
   height: 400;
-  width: 600;
+  width: 400;
   margin-top: 5px;
-  margin-left: 120px;
+  margin-left: 18%;
 }
 
 #player {
   display: block;
+  margin-left: 80px;
 }
 
 #bottom {
   display: flex;
   flex-direction: column;
+  width: 60%;
+
+}
+
+#app {
+  align-self: left;
+  width: 40%;
 }
