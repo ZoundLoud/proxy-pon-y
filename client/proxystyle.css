@@ -1,16 +1,19 @@
 body {
   display: block;
 }
+
 #description {
 display: block;
 padding-left: 50px;
+background: #fff;
 }
 
 #commentSection {
   height: 400;
   width: 400;
-  margin-top: 5px;
-  margin-left: 18%;
+  padding-top: -3%;
+  margin-left: 13%;
+  background: #fff;
 }
 
 #player {
@@ -18,14 +21,6 @@ padding-left: 50px;
   margin-left: 80px;
 }
 
-#bottom {
-  display: flex;
-  flex-direction: column;
-  width: 60%;
-
-}
-
-#app {
-  align-self: left;
-  width: 40%;
+#right_bar {
+  background: #fff;
 }
