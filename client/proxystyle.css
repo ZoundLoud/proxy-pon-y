@@ -1,22 +1,99 @@
 body {
-  display: block;
+  display: flex;
+  flex: left;
+  background: #f2f2f2;
+  align-content: center;
+  justify-content: center;
+}
+
+#navbar {
+  width: 100%;
+  height: 50px;
+  z-index: 9999;
+  top: 0;
+  position: fixed;
+}
+.proxycontainer { 
+vertical-align: center;
+  background: #fff;
+  z-index: 1;
+  width: 80%;
+  padding-top: 42px;
 }
 #description {
 display: block;
+background: #fff;
+width: 100%;
+position: relative;
 }
 
+#description .ZaZiT {
+  width: 700px;
+}
 #commentSection {
   height: 400;
-  width: 600;
-  margin-top: 5px;
-  margin-left: 120px;
+  width: 80%;
+  padding-top: -3%;
+  margin-left: 13%;
+  background: #fff;
 }
 
 #player {
   display: block;
+  position: relative;
+  width: 100%;
 }
 
-#bottom {
+#player .sound-container-top {
+  width: 62%;
+}
+
+#player .sound-container-bottom {
+  width: 62%;
+}
+
+#player .comment-container {
+  width: 62%;
+}
+#right_bar {
+  background: #fff;
+}
+
+#bplayer {
+  width: 100%;
+  z-index: 9999;
+  bottom: 0;
+  position: fixed;
+}
+
+#bottomcomponents{
   display: flex;
-  flex-direction: column;
+  flex-direction: left;
+  width: 100%;
+}
+
+.bottomleft {
+  width:  70%;
+}
+#bottomright {
+  width: 45%;
+}
+
+#right_bar {
+  width: 100%;
+  position: relative;
+  height: 703px;
+}
+#right_bar .app {
+  width: 86%;
+  top: 0;
+  right: 0;
+  height: 690px;
+  padding: 5px;
+}
+#mobile {
+  width: 80%;
+}
+#likes {
+  width: 100%;
 }
